@@ -1,0 +1,55 @@
+body {
+    background-image: url(https://www.elevatebali.com/storage/8Ekg79L7uQKTbmkycZwD8g7IIv9JT2-metaNjM1YTI2MTI5YjA2ODcxMjc5NTM4MS5qcGc=-.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#menu ul>li {
+    font-size: 24px;
+    display: inline-block;
+    margin-left: 6%;
+    line-height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(100, 19, 19);
+}
+
+li a:hover {
+    color: rgb(88, 217, 235);
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.balibali {
+    padding-left: 10%;
+    width: 45%;
+    height: 500px;
+    margin-top: 5%;
+    margin-right: 5%;
+    font-size: 35px;
+    color: beige;
+    text-align: justify;
+    float: right;
+}
+
+.balibali h1 {
+    color: lavenderblush;
+}
+
+.glisse {
+    background: url();
+    animation: slide 20s infinite;
+    columns: 1;
+}
+
+@keyframes slide {
+    0% {
+        background: url(https://www.elevatebali.com/storage/8Ekg79L7uQKTbmkycZwD8g7IIv9JT2-metaNjM1YTI2MTI5YjA2ODcxMjc5NTM4MS5qcGc=-.jpg);
+    }
+    100% {
+        background: url(https://i.pinimg.com/564x/b4/a5/e1/b4a5e1a07ef31f02d752a4b8d5b21ac5.jpg);
+    }
+}
